@@ -1,0 +1,640 @@
+/*! HTML5 Boilerplate v7.3.0 | MIT License | https://html5boilerplate.com/ */
+
+/* main.css 2.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
+/*
+ * What follows is the result of much research on cross-browser styling.
+ * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
+ * Kroc Camen, and the H5BP dev community and team.
+ */
+
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+body {
+  position: relative;
+  min-height: 100%;
+}
+
+h1 {
+  text-align:center;
+  font-size:80px;
+  font-family:'wire one', serif;
+  font-weight:normal;
+}
+p {
+  text-align:center;
+  font-size:20px;
+  font-family:'Raleway', serif;
+}
+
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+
+/*
+ * Remove text-shadow in selection highlight:
+ * https://twitter.com/miketaylr/status/12228805301
+ *
+ * Vendor-prefixed and regular ::selection selectors cannot be combined:
+ * https://stackoverflow.com/a/16982510/7133471
+ *
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Browser Upgrade Prompt
+   ========================================================================== */
+
+.browserupgrade {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+   /* ==========================================================================
+      ID's
+      ========================================================================== */
+
+#byline {
+  width: 150px;
+  height: 150px;
+  border: solid;
+  border-radius: 50%;
+  position: relative;
+}
+
+#tagline{
+  margin-top: 10px;
+  text-align: center;
+}
+
+#page-container {
+     position: relative;
+     height: 100%;
+   }
+
+
+/* ==========================================================================
+   Header
+   ========================================================================== */
+
+.header{
+    color: white;
+    background-color: #9ACD32;
+    text-align: center;
+}
+.header:after {
+    content: " ";
+    display: block;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 36px;
+    background: linear-gradient(#9ACD32 0%, transparent 0%), linear-gradient(135deg, #FFFFFF 33.33%, transparent 33.33%) 0 0%, #FFFFFF linear-gradient(45deg, #FFFFFF 33.33%, #9ACD32 33.33%) 0 0%;
+    background: -webkit-linear-gradient(#9ACD32 0%, transparent 0%), -webkit-linear-gradient(135deg, #FFFFFF 33.33%, transparent 33.33%) 0 0%, #FFFFFF -webkit-linear-gradient(45deg, #FFFFFF 33.33%, #9ACD32 33.33%) 0 0%;
+    background: -o-linear-gradient(#9ACD32 0%, transparent 0%), -o-linear-gradient(135deg, #FFFFFF 33.33%, transparent 33.33%) 0 0%, #FFFFFF -o-linear-gradient(45deg, #FFFFFF 33.33%, #9ACD32 33.33%) 0 0%;
+    background: -moz-linear-gradient(#9ACD32 0%, transparent 0%), -moz-linear-gradient(135deg, #FFFFFF 33.33%, transparent 33.33%) 0 0%, #FFFFFF -moz-linear-gradient(45deg, #FFFFFF 33.33%, #9ACD32 33.33%) 0 0%;
+    background-repeat: repeat-x;
+    background-size: 0px 100%, 9px 27px, 9px 27px;
+}
+
+/* ==========================================================================
+   Skewed background
+   ========================================================================== */
+
+.colour-block {
+  background:#9ACD32;
+  padding:7% 20% 4% 20%;
+  color:#fff;
+}
+
+/*-------------------------*/
+/* SKEW COUNTER CLOCKWISE  */
+/*-------------------------*/
+.skew-c{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to left bottom, #fff 49%, #9ACD32 50%);
+}
+
+/* ==========================================================================
+   Contact and social media
+   ========================================================================== */
+
+.social-media {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 30px;
+  width: 50px;
+  background: #9ACD32;
+  color: #fff;
+}
+
+a.fa {
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+  color: #fff;
+}
+
+
+/* ==========================================================================
+   Content
+   ========================================================================== */
+
+
+
+#page-content {
+  margin-left: 30%;
+  margin-right: 30%;
+  text-align: center;
+  padding-bottom: 2.5rem;
+}
+
+.sections {
+  position: relative;
+  height: auto;
+  width: 100%;
+  padding-top: 50px;
+  opacity: 1;
+  transition: opacity 1.5s;
+}
+
+.sections a {
+  font-weight: bold;
+}
+
+.image-section {
+  position: relative;
+  height: 500px;
+  width: 100%;
+
+  opacity: 1;
+  transition: opacity 1.5s;
+}
+
+.polaroid {
+    position: absolute;
+    border: 1px solid darkgrey;
+    background-color: white;
+    padding: 15px 15px 60px 15px;
+    box-shadow: 5px 10px 10px darkgrey;
+}
+
+.polaroid:after {
+    content: attr(polaroid-caption);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.image {
+    left: 100px;
+    top: 20px;
+    transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+}
+
+.fade-in {
+  animation: fadeIn ease 10s;
+  -webkit-animation: fadeIn ease 10s;
+  -moz-animation: fadeIn ease 10s;
+  -o-animation: fadeIn ease 10s;
+  -ms-animation: fadeIn ease 10s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+.btn {
+  background:transparent;
+  text-align:center;
+  letter-spacing:1px;
+  font-size:1.4em;
+  line-height:1.2em;
+  font-weight:300;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:auto;
+  width:200px;
+  height:20px;
+  padding:20px 0;
+  border:1px solid #9ACD32;
+  overflow:hidden;
+  display:inline-block;
+  transition:all 0.5s;
+  box-shadow:0px 3px 0px #9ACD32;
+  border-radius: 4px;
+}
+
+.btn:hover, .btn:active {
+  text-decoration: none;
+  color:#fff;
+  border-color:#9ACD32;
+  background:#9ACD32;
+  box-shadow:0 0 0 #9ACD32;
+}
+
+.btn-label {
+  display:inline-block;
+  position:relative;
+  padding-right:0;
+  transition:padding-right 0.5s;
+  color:#363858;
+  font-family: 'wire one', serif;
+  font-weight: bold;
+}
+.btn-label:after {
+  content: "";
+  position:absolute;
+  right:-50px;
+  opacity:0;
+  top:22%;
+  width:10px;
+  height:10px;
+  margin-right:-10px;
+  background:rgba(0,0,0,0);
+  border:3px solid #fff;
+  border-top:none;
+  border-right:none;
+  transition: opacity 0.5s, top 0.5s, right 0.5s;
+  transform:rotate(225deg);
+}
+
+.btn:hover .btn-label,
+.btn:active .btn-label {
+  padding-right:30px;
+  color:#f5f1e7;
+}
+
+.btn:hover .btn-label:after,
+.btn:active .btn-label:after {
+  transition:opacity: 0.5s, top 0.5s, right 0.5s;
+  opacity:1;
+  right:10px;
+  top:22%;
+}
+
+
+/* ==========================================================================
+   Footer
+   ========================================================================== */
+
+
+#footer {
+  text-align: center;
+  color: #FFFFFF;
+  background-color: #000;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  height: 75px;
+}
+
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden {
+  display: none !important;
+}
+
+/*
+* Hide only visually, but have it available for screen readers:
+* https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+*
+* 1. For long content, line feeds are not interpreted as spaces and small width
+*    causes content to wrap 1 word per line:
+*    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+*/
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+* Extends the .sr-only class to allow the element
+* to be focusable when navigated to via the keyboard:
+* https://www.drupal.org/node/897638
+*/
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+* Hide visually and from screen readers, but maintain layout
+*/
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+* Clearfix: contain floats
+*
+* For modern browsers
+* 1. The space content is one way to avoid an Opera bug when the
+*    `contenteditable` attribute is included anywhere else in the document.
+*    Otherwise it causes space to appear at the top and bottom of elements
+*    that receive the `clearfix` class.
+* 2. The use of `table` rather than `block` is only necessary if using
+*    `:before` to contain the top-margins of child elements.
+*/
+
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media (max-width:629px) {
+  img#byline {
+      width: 100px;
+      height: 100px;
+      border: solid;
+      border-radius: 50%;
+      position: relative;
+    }
+
+  #page-content {
+         margin-left: 5%;
+         margin-right: 5%;
+       }
+  .colour-block {
+    background:#9ACD32;
+    padding:15% 10% 0% 20%;
+    color:#fff;
+  }
+
+  .polaroid {
+      content:url("C:/Users/Bruger/Desktop/Dev/Scrollspy-site/img/TDJ2_small.png");
+      position: absolute;
+      border: 1px solid darkgrey;
+      background-color: white;
+      padding: 15px 15px 60px 15px;
+      box-shadow: 5px 10px 10px darkgrey;
+
+
+  }
+
+  .polaroid:after {
+      content: attr(polaroid-caption);
+      position: absolute;
+
+      bottom: 0px;
+      left: 0px;
+      width: calc(100% - 40px);
+      padding: 10px;
+      font-size: 3px;
+      text-align: center;
+      font-family: 'Indie Flower', cursive;
+  }
+
+  .image {
+      left: 100px;
+      top: 100px;
+      transform: rotate(-20deg);
+      -ms-transform: rotate(-20deg);
+      -webkit-transform: rotate(-20deg);
+  }
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+  a,
+  a:visited {
+    text-decoration: none;
+  }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+  /*
+     * Don't show links that are fragment identifiers,
+     * or use the `javascript:` pseudo protocol
+     */
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+  pre {
+    white-space: pre-wrap !important;
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+  /*
+     * Printing Tables:
+     * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+     */
+  thead {
+    display: table-header-group;
+  }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
