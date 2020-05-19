@@ -259,17 +259,6 @@ a.fa {
     box-shadow: 5px 10px 10px darkgrey;
 }
 
-.polaroid:after {
-    content: attr(polaroid-caption);
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
-    width: calc(100% - 20px);
-    padding: 10px;
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
-}
 
 .image {
     left: 100px;
@@ -535,7 +524,6 @@ a.fa {
   }
 
   .polaroid {
-      content:url("C:/Users/Bruger/Desktop/Dev/Scrollspy-site/img/TDJ2_small.png");
       position: absolute;
       border: 1px solid darkgrey;
       background-color: white;
@@ -544,26 +532,16 @@ a.fa {
 
 
   }
-
-  .polaroid:after {
-      content: attr(polaroid-caption);
-      position: absolute;
-
-      bottom: 0px;
-      left: 0px;
-      width: calc(100% - 40px);
-      padding: 10px;
-      font-size: 3px;
-      text-align: center;
-      font-family: 'Indie Flower', cursive;
-  }
-
   .image {
       left: 100px;
       top: 100px;
       transform: rotate(-20deg);
       -ms-transform: rotate(-20deg);
       -webkit-transform: rotate(-20deg);
+  }
+  .image img {
+      height: 271px;
+      width: 200px;
   }
 }
 
