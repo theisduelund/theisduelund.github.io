@@ -3,7 +3,9 @@ author: Theis Duelund # name of site's author
 url: https://theisduelund.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
-  A (nearly) no-CSS, fast, minimalist Jekyll theme.
+  Writer, reader, road cycling enthusiast.
+  I work with press relations in higher education.
+  Sole proprietor of opinions expressed here.
 
 permalink: /:slug.html
 
