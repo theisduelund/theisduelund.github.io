@@ -1,4 +1,4 @@
-title: Theis Duelund! # name of the site
+title: Theis Duelund # name of the site
 author: Theis Duelund # name of site's author
 url: https://theisduelund.github.io # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
@@ -13,7 +13,7 @@ favicon: "logo.png" # name+extension of favicon (which must be put on the root f
 theme: no-style-please # if you are using GitHub Pages, change it to remote_theme: riggraz/no-style-please
 
 theme_config:
-  appearance: "auto" # can be "light", "dark" or "auto"
+  appearance: "dark" # can be "light", "dark" or "auto"
   back_home_text: ".." # customize text for homepage link in post layout
   date_format: "%Y-%m-%d" # customize how date is formatted
   show_description: false # show blog description in home page
