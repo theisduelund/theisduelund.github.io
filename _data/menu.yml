@@ -3,31 +3,31 @@
 
 entries:
   - title: writing
-  entries:
-    - title: "Mød punkeren, der blev technoaktivist og revolutionerede københavnsk rave-kultur," VICE
-    url: https://www.vice.com/da/article/43pv8d/moed-punkeren-der-blev-technoaktivist-og-revolutionerede-koebenhavnsk-rave-kultur
-    - title: "Coke, blod og hardcore punk – københavnske Night Fever er sit helt eget monster," VICE
-    url: https://www.vice.com/da/article/434vg3/coke-blod-og-hardcore-punk-koebenhavnske-night-fever-er-sit-helt-eget-monster
-    - title: "The Black Castle's mysterious proprietor," L.A. Weekly
-    url: https://www.laweekly.com/the-black-castles-mysterious-proprietor/
-    - title: "L.A.'s raddest venue is a linving room in East Hollywood," L.A. Weekly
-    url: https://www.laweekly.com/l-a-s-raddest-venue-is-a-living-room-in-east-hollywood/
-    - title: "'True Detective' Creator Nic Pizzolatto is a One-Man Writing Army," Los Angeles magazine
-    url: https://www.lamag.com/culturefiles/qa-true-detective-creator-nic-pizzolatto-is-a-one-man-writing-army/
-    - title: "What John Waters Teaches His Third Grade Baltimore Art Class," Los Angeles magazine
+    entries:
+      - title: "Mød punkeren, der blev technoaktivist og revolutionerede københavnsk rave-kultur," VICE
+      url: https://www.vice.com/da/article/43pv8d/moed-punkeren-der-blev-technoaktivist-og-revolutionerede-koebenhavnsk-rave-kultur
+      - title: "Coke, blod og hardcore punk – københavnske Night Fever er sit helt eget monster," VICE
+      url: https://www.vice.com/da/article/434vg3/coke-blod-og-hardcore-punk-koebenhavnske-night-fever-er-sit-helt-eget-monster
+      - title: "The Black Castle's mysterious proprietor," L.A. Weekly
+      url: https://www.laweekly.com/the-black-castles-mysterious-proprietor/
+      - title: "L.A.'s raddest venue is a linving room in East Hollywood," L.A. Weekly
+      url: https://www.laweekly.com/l-a-s-raddest-venue-is-a-living-room-in-east-hollywood/
+      - title: "'True Detective' Creator Nic Pizzolatto is a One-Man Writing Army," Los Angeles magazine
+      url: https://www.lamag.com/culturefiles/qa-true-detective-creator-nic-pizzolatto-is-a-one-man-writing-army/
+      - title: "What John Waters Teaches His Third Grade Baltimore Art Class," Los Angeles magazine
   
   - title: translation
   entries:
     - title: "Ungdoms sødme" by Denton Welch
     url: https://sidsteaarhundrede.dk/products/denton-welch-ungdoms-sodme
     - title: reviews (danish)
-    entries:
-      - title: "Trøstesløs potent livslede," Atlas
-      - url: https://atlasmag.dk/kultur/b%C3%B8ger/tr%C3%B8stesl%C3%B8s-potent-livslede
-      - title: "’Ungdoms sødme’ er en bøsset roman fra 1930’ernes homofobiske England," Information
-      - url: https://www.information.dk/kultur/anmeldelse/2019/11/ungdoms-soedme-boesset-roman-1930ernes-homofobiske-england
-      - title: "Den nygotiske brødholder," Weekendavisen
-      - url: https://www.weekendavisen.dk/2019-50/boeger/den-nygotiske-broedholder?fbclid=IwAR0cYzIxd3NZg1tHnLPhKxechcCaAr0YpI0tJUGrVL3xvPykyZ0h2OE3yIM
+      entries:
+        - title: "Trøstesløs potent livslede," Atlas
+        - url: https://atlasmag.dk/kultur/b%C3%B8ger/tr%C3%B8stesl%C3%B8s-potent-livslede
+        - title: "’Ungdoms sødme’ er en bøsset roman fra 1930’ernes homofobiske England," Information
+        - url: https://www.information.dk/kultur/anmeldelse/2019/11/ungdoms-soedme-boesset-roman-1930ernes-homofobiske-england
+        - title: "Den nygotiske brødholder," Weekendavisen
+        - url: https://www.weekendavisen.dk/2019-50/boeger/den-nygotiske-broedholder?fbclid=IwAR0cYzIxd3NZg1tHnLPhKxechcCaAr0YpI0tJUGrVL3xvPykyZ0h2OE3yIM
 
   - title: updates
     post_list:
