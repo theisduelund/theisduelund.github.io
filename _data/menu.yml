@@ -29,13 +29,6 @@ entries:
             url: https://www.information.dk/kultur/anmeldelse/2019/11/ungdoms-soedme-boesset-roman-1930ernes-homofobiske-england
           - title: <i>Den nygotiske brødholder</i>, Weekendavisen
             url: https://www.weekendavisen.dk/2019-50/boeger/den-nygotiske-broedholder?fbclid=IwAR0cYzIxd3NZg1tHnLPhKxechcCaAr0YpI0tJUGrVL3xvPykyZ0h2OE3yIM
-
-  - title: updates
-    post_list:
-      limit: 5
-      show_more: true
-      show_more_text: See archive...
-      show_more_url: archive.html
       
   - title: contact
     entries:
